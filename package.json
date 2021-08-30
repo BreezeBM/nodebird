@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "author": "BM",
   "license": "MIT",
